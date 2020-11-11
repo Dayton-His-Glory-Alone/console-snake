@@ -32,7 +32,9 @@ public class Main {
 		// Init food
 		Food food = new Food('*');
 		food.addRandomFood(screen, food);
-		
+		//Init PowerUp
+		PowerUp power= new PowerUp('X');
+		power.addRandomPower(screen,power);
 		// Input from player
 		Scanner scanner = new Scanner(System.in);
 		char input;
